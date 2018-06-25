@@ -1,0 +1,28 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "@new-private/it-private",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/common": "~5.2.0",
+    "@angular/core": "~5.2.0"
+  },
+  "devDependencies": {
+    "@angular/common": "~5.2.0",
+    "@angular/core": "~5.2.0"
+  },
+  "main": "bundles/new-private-it-private.umd.js",
+  "module": "fesm5/new-private-it-private.js",
+  "es2015": "fesm2015/new-private-it-private.js",
+  "esm5": "esm5/new-private-it-private.js",
+  "esm2015": "esm2015/new-private-it-private.js",
+  "fesm5": "fesm5/new-private-it-private.js",
+  "fesm2015": "fesm2015/new-private-it-private.js",
+  "typings": "new-private-it-private.d.ts",
+  "metadata": "new-private-it-private.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
